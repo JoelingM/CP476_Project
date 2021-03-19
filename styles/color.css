@@ -1,0 +1,95 @@
+/* Color variable definitions */
+:root {
+    --x-light-pink: #E5B3B3;
+    --light-pink: #E87474;
+    --med-pink: #C63940;
+    --dark-pink: #910816;
+    --white: #FFFFFF;
+    --med-grey: #CCCCCC;
+    --dark-grey: #686868;
+    --red: red;
+    --light-pink-border: 2px solid var(--light-pink);
+    --med-pink-border: 5px solid var(--med-pink);
+    --med-grey-border: 1px solid var(--med-grey);
+    --light-med-pink-gradient: radial-gradient(var(--light-pink), var(--med-pink));
+    --med-dark-pink-gradient: radial-gradient(var(--med-pink), var(--dark-pink));
+}
+
+body {
+    background-image: url("../res/bg-floral.png");
+    color: var(--white);
+}
+
+header, footer {
+    background-image: var(--light-med-pink-gradient);
+}
+
+hr {
+    color: var(--med-pink);
+}
+
+a.sidenav-option {
+    background-image: var(--light-med-pink-gradient);
+    color: var(--white);
+}
+
+a.sidenav-option:hover {
+    background-image: var(--med-dark-pink-gradient);
+}
+
+#content {
+    background: var(--white);
+    border: var(--med-pink-border);
+    color: var(--dark-grey);
+}
+
+#loginbox {
+    background: var(--white);
+    padding: 10px 10px 10px 10px;
+    border: var(--med-pink-border);
+    color:var(--dark-grey);
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+.prompt {
+    color: var(--dark-grey);
+}
+
+input, textarea {
+    color: var(--dark-grey);
+}
+
+#profile-picture {
+    border: var(--med-pink-border);
+}
+
+button, input[type="button"], input[type="submit"], input[type="file"], .file-upload {
+    background-image: var(--light-med-pink-gradient);
+    color: var(--white);
+}
+
+button:hover, input[type="button"]:hover, .file-upload:hover, input[type="submit"]:hover {
+    background-image: var(--med-dark-pink-gradient);
+}
+
+#change-profile-picture {
+    border: var(--med-grey-border);
+}
+
+.prompt-label {
+    color: var(--white);
+    background: var(--light-pink);
+}
+
+.bad-input {
+    border: 1px solid var(--red);
+    background-color: var(--x-light-pink);
+}
+
+.nametag {
+    background-color: var(--light-pink);
+    color: var(--white);
+}

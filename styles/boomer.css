@@ -1,0 +1,260 @@
+body {
+  width: 60%;
+  margin: auto auto auto auto;
+  font-family: serif;
+  font-size: 20px;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+header,
+footer {
+  clear: both;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+
+header {
+  cursor: pointer;
+  margin: 5px 0 0 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+main {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+footer {
+  margin: 10px 0 0 0;
+  font-size: 80%;
+  text-align: center;
+}
+
+hr {
+  clear: both;
+}
+
+i {
+  margin: 0 10px 0 0;
+}
+
+#sidenav {
+  float: left;
+  width: calc(25% - 30px - 10px);
+  margin: 0 0 10px 0;
+  padding: 0 5px 0 5px;
+}
+
+.sidenav-option {
+  clear: both;
+  display: block;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-size: auto;
+}
+
+#home-button {
+  margin: 0 0 5px 0;
+}
+
+#content {
+  float: left;
+  width: 75%;
+  margin: 0 0 10px 0;
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="file"],
+.file-upload {
+  cursor: pointer;
+  border: none;
+}
+
+.file-upload {
+  clear: both;
+  float: left;
+  padding: 5px 15px 5px 15px;
+  margin: 5px 0 0 0;
+}
+
+.replies-label {
+  margin-left: 20px;
+}
+
+.prompt-label {
+  font-size: 90%;
+  padding: 0 20px 0 10px;
+  border-radius: 0 50px 0 0;
+}
+
+.post {
+  margin: 0 0 30px 0;
+  border: var(--light-pink-border);
+  padding: 5px 5px 5px 5px;
+}
+
+.post-wrapper {
+  margin: 0 0 10px 0;
+  border: var(--med-grey-border);
+}
+
+.poster-info {
+  clear: both;
+  width: calc(100% - 20px);
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+  border-bottom: var(--med-grey-border);
+}
+
+.icon {
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.timestamp {
+  display: block;
+  clear: both;
+  margin: 0 0 0 5px;
+  padding: 5px 10px 5px 0;
+  font-size: 65%;
+}
+
+.namebox {
+  float: left;
+}
+
+.nametag {
+  float: left;
+  margin: 0 0 0 5px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+.post-content {
+  padding: 10px;
+}
+
+.post-content .post-text {
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.post-content .post-img {
+  margin: 10px auto 0 auto;
+  max-height: 300px;
+}
+
+.replies-wrapper {
+  border: var(--med-grey-border);
+  margin-left: 20px;
+}
+
+.post-replies {
+  border-bottom: var(--med-grey-border);
+}
+
+.reply {
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+  border-bottom: var(--med-grey-border);
+}
+
+.reply .reply-text {
+  display: block;
+  overflow: hidden;
+  float: right;
+  width: calc(100% - 45px - 20px);
+  padding: 5px 0 5px 10px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.reply-form {
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+
+.reply-form .comment-box {
+  float: left;
+  width: 80%;
+  min-width: 80%;
+  max-width: 80%;
+  resize: none;
+}
+
+.reply-form input[type="submit"], .reply-form input[type="button"] {
+  width: calc(20% - 15px);
+  margin: 0 0 0 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+#new-post-area {
+  margin: 0 0 30px 0;
+  border: var(--light-pink-border);
+}
+
+#new-post-area .prompt {
+  background-color: var(--light-pink);
+  color: var(--white);
+}
+
+.post-form {
+  padding: 10px 10px 10px 10px;
+  overflow: hidden;
+}
+
+.post-form .comment-box {
+  float: left;
+  width: 80%;
+  min-width: 80%;
+  max-width: 80%;
+  resize: none;
+}
+
+.post-form input[type="submit"], .post-form input[type="button"] {
+  width: calc(20% - 15px);
+  margin: 0 0 0 5px;
+  padding: 5px;
+}
+
+.delete-button {
+  visibility: hidden;
+  float: right;
+}
+
+.like-post-form {
+  display: block;
+  clear: both;
+  margin-left: 20px;
+}
+
+.like-post-form span {
+  margin-left: 5px;
+}
+
+.post-button {
+  padding: 5px 10px;
+}
+
+.post:hover .delete-button {
+  visibility: visible;
+}

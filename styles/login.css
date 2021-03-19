@@ -1,0 +1,26 @@
+#loginform {
+    float: left;
+    width: 75%;
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.prompt-label {
+    font-size: 100%;
+}
+
+input, a {
+    clear: both;
+    width: 50%;
+    margin: 0 0 10px 0;
+}
+
+input[type="submit"] {
+    padding: 5px 10px 5px 10px;
+}
+
+a {
+    display: block;
+    font-size: 80%;
+}

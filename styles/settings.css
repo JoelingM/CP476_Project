@@ -1,0 +1,55 @@
+.form-section {
+  clear: both;
+  overflow: hidden;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.prompt {
+  float: left;
+  margin: 5px 15px 0 0;
+  overflow: hidden;
+}
+
+.prompt input,
+.prompt-label {
+  float: left;
+  clear: both;
+}
+
+.prompt input {
+  display: block;
+  width: calc(100% - 5px - 3px);
+  padding: 0 0 0 5px;
+}
+
+.m-prompt {
+  width: calc(50% - 15px);
+}
+
+.l-prompt {
+  width: calc(100% - 15px);
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#profile-pic-prompt img {
+  max-height: 150px;
+  clear: both;
+  float: left;
+  margin: 5px 0 0 0;
+}
+
+#submit {
+  clear: both;
+  width: 50%;
+  margin: 10px 25% 0 25%;
+  padding: 10px 0 10px 0;
+}
+
+#profile-pic {
+  object-fit: contain;
+  height: 100px;
+}

@@ -1,0 +1,30 @@
+.prompt-label {
+  margin-left: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#preview-img {
+  max-height: 150px;
+  clear: both;
+  float: left;
+  margin: 5px 0 0 0;
+  display: none;
+}
+
+.picturebox {
+  display: block;
+  clear: both;
+}
+
+.pic-upload {
+  display: block;
+  clear: both;
+  padding: 5px;
+}
+
+#joke-button {
+  margin-bottom: 5px;
+}
